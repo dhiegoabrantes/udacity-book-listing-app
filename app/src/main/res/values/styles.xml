@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="bookTitleLabel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">5dp</item>
+    </style>
+
+    <style name="authorsLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
 </resources>

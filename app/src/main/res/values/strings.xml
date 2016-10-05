@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Book Listing App</string>
+
+
+    <string name="enter_book_title">Informe o título do livro</string>
+    <string name="no_internet_connection">Internet Indisponível</string>
+    <string name="no_image_to_show">Capa Indisponível</string>
+
+    <string name="buttonFindLabel">Buscar</string>
+
+    <string name="no_data">Resultado não encontrado</string>
 </resources>

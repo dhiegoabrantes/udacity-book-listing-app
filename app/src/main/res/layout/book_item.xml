@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/bookThumbnail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookTitle"
+            android:text="Book Title"
+            style="@style/bookTitleLabel"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/authors"
+            android:text="Nome do Autor"
+            style="@style/authorsLabel"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+</LinearLayout>
